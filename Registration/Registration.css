@@ -1,0 +1,167 @@
+body{
+    background-image:   url('../Images/bck2.png');
+    overflow-x: hidden;
+    /* align-content: center; */
+    /* height: 100vh; */
+}
+aside{
+    background-image:   url('../Images/Vector (5).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 150vh; */
+    margin-top: -3%;
+    background-position: left bottom;
+}
+.form{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    border: 2px solid #2d3a82;
+    margin-bottom: 10%;
+}
+
+.form2{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    border: 2px solid #f95736;
+    margin-bottom: 10%;
+}
+
+.Registration_form{
+    text-align: center;
+    padding-top: 7%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: left;
+    align-items: left;
+}
+
+.asterisks{
+    color: red;
+    font-size: 20px;
+    /* margin-bottom: -5%; */
+}
+
+.back2{
+    width:3vw;
+}
+
+.back2:hover{
+    transform: scale(1.2)
+}
+
+.Registration_input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #2d3a82;
+    width: 40vw;
+    
+}
+
+.Registration_input:focus{
+    border: 2px solid #f95736;
+}
+
+.Registration_form_div{
+    padding: 15px;
+}
+
+.Registration_label{
+    align-self: left;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.Submit_button{
+    margin: 3%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 700px;
+    color: white;
+    outline: none;
+    background-color: #f95736;
+    border: 2px solid #f95736;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.473);
+}
+.Submit_button:hover{
+    transform: translateY(-5%);
+    box-shadow: 0 10px 20px white;
+}
+.but2{
+    background-color: #2d3a82;
+    border: 2px solid #2d3a82;
+}
+
+/* Media queries part */
+
+.head{
+    padding:2%;
+}
+
+@media screen and (max-width: 1000px){
+    .head{
+        font-size: 20px;
+        padding: 3%;
+    }
+    .back2{
+        width:4vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .head{
+        font-size: 20px;
+        padding: 4%;
+    }
+    .back2{
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .head{
+        font-size: 15px;
+    }
+    .Registration_label{
+        font-size: 12px;
+    }
+    .Registration_input{
+        width: 50vw;
+    }
+    .fup_name{
+        font-size: 12px;
+    }
+    .back2{
+        width: 6vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .head{
+        font-size: 13px;
+    }
+    .Registration_input{
+        width: 70vw;
+    }
+    .fup_name{
+        font-size: 10px;
+    }
+    .Registration_label{
+        font-size: 10px;
+    }
+    .back2{
+        width:7vw;
+    }
+}
+

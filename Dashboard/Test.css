@@ -1,0 +1,352 @@
+.Profile_aside{
+    height: 90vh;
+    background-image:url('../Images/vector (6).png');
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+body{
+    background-image:   url('../Images/bg2.png'), url('../Images/bck2.png');
+    /* height: 100vh; */
+}
+
+.header_container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 10%;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.2); */
+    color: black;
+    box-shadow: 0 10px 50px red;
+}
+
+.linky{
+    color: black;
+    text-decoration: none;
+}
+
+.Profile_table{
+    text-align: center;
+    margin-top: 1%;
+    background-color: #05193748;
+    padding: 1%;
+    border-radius: 40px;
+}
+
+tr{
+    
+}
+td{
+    padding: 10px;
+    width: 30vw;
+}
+
+.Profile_button{
+    margin: 5%;
+    margin-top: 1%;
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: 700px;
+    color: white;
+    outline: none;
+    background-color: #CB04A5;
+    border: 2px solid #CB04A5 ;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.473);
+}
+
+.bottom_line{
+    /* border-bottom: 2px solid #2d3a82; */
+}
+
+.Profile_top{
+    background-color: rgba(255, 255, 255, 1.0);
+    margin-top: 2%;
+    width: 70%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border:  1px solid #2d3a82 
+}
+
+.bottom_line_number{
+    font-size: 120%;
+    padding-right: 2%;
+}
+
+.Profile_bottom{
+    background-color: rgba(255, 255, 255, 1.0);
+    margin-top:1%;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+    width: 70%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #2d3a82 
+}
+
+.Profile_bottom_contents{
+    padding-left: 6%;
+    padding-right: 2%;
+    width: 100%;
+}
+
+li{
+    list-style-type: upper-alpha;
+}
+
+.radio_button{
+    float: left;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.time_frame{
+    /* border: 2px solid #cb04a5;
+    width: 10vw;
+    text-align: center; */
+}
+
+.buttons{
+    margin-top:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 20%;
+    width: 15vw;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700px;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.473);
+}
+
+.next_button{
+    background-color: #f95736;
+    border: 2px solid #f95736 ;
+    color: black;
+}
+
+.back_button{
+    background-color: #f95736;
+    border: 2px solid #f95736;
+    color: black;
+}
+
+.pagination{
+    margin: 1%;
+    background-color: white;
+}
+
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active{
+    background-color: #2d3a82;
+    color: white;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+
+.close-svg{
+    color: red;
+    height: 7vh;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.close-svg:hover{
+    transform: scale(1.2)
+}
+
+.hidden_nav{
+    /* display: none;
+    position: absolute;
+    overflow-y: hidden;
+    background-color: #2d3a82;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    height: 87vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    display: none;
+    background-color: #2d3a82;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+    color: white;
+    height: 100vh;
+    top:0%;
+    left:0%;
+    transform: translate(0%, 0%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+}
+
+.hidden_nav_link:hover{
+    transform: scale(1.2)
+}
+
+.hidden_link{
+    color: white;
+    text-decoration: none;
+}
+.close{
+    align-self: unset;
+    position: top left;
+}
+
+.container{
+    display: block;
+    position: relative;
+    padding-left:35px;
+    margin-bottom: 12px;
+    margin-left: 5%;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 50%
+}
+
+.container:hover input ~ .checkmark{
+    background-color: rgb(218, 216, 216)
+}
+
+.container input:checked ~ .checkmark{
+    background-color: #2196f3
+}
+
+.container input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.checkmark:after{
+    content:"";
+    position:absolute;
+    display: none
+}
+
+.container .checkmark:after{
+    left: 9px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+}
+
+
+
+
+@media screen and (max-width: 840px){
+    .Profile_top{
+        margin-top: 3%;
+        width: 80%;
+    }
+    
+    .Profile_bottom{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .Profile_top{
+        margin-top: 3%;
+        width: 90%;
+    }
+    
+    .Profile_bottom{
+        margin-top:1%;
+        width: 90%;
+    }
+    
+    .button{
+        margin: 5%;
+        margin-top: 1%;
+        margin-bottom: 20%;
+        width: 15vw;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .button{
+        margin: 5%;
+        margin-top: 1%;
+        margin-bottom: 20%;
+        width: 17vw;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .button{
+        margin: 5%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        width: 20vw;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .Profile_bottom_contents{
+        font-size: 90%;
+    }
+}

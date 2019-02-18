@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./Dashboard/Dashboard.css" />
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="mdb-preloader" class="flex-center">
+    <div id="preloader-markup"></div>
+  </div>
+
+  <div class='main-content'>
+      <div class='cont side_nav'>
+          <div class='link'>
+              <img src='../Images/logo1.png' class='logo'/>
+          </div>
+          <hr class='line'/>
+          <p class='link'>Dashboard</p>
+          <p class='link'>User Profile</p>
+          <p class='link'>Online Test</p>
+          <p class='link'>Blog</p>
+          <p class='link'>Change Password</p>
+          <p class='link'>Logout</p>
+      </div>
+
+      <div class='cont profile'>
+        <nav class="mb-1 navbar navbar-expand-lg  navigation">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">SETTINGS
+                  </a>
+                  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                    <a class="dropdown-item" href="./Userprofile.html">View Profile</a>
+                    <a class="dropdown-item" href="./Editprofile.html">Update Profile</a>
+                  </div>
+                </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="#">LOGOUT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class='cont_contents'>
+           
+        </div>
+          
+        <div >
+  
+            <!-- <div class='buttons'>
+                <a href='#' class='link'><button 
+                class='apply_button'>REGISTER</button></a>
+                <a href='#' class='link'><button 
+                class='apply_button'>DEMO</button></a>
+            <div> -->
+          </div>
+      </div>
+      
+  </div>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/mdb.min.js">
+      $(".button-collapse").sideNav();
+    // SideNav Scrollbar Initialization
+    var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+    Ps.initialize(sideNavScrollbar);
+  </script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
